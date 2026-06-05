@@ -110,8 +110,12 @@ async function main() {
   await browser.close();
   server.close();
 
+  // Write flat files (en.html, en/work.html) rather than directory indexes
+  // (en/index.html). GitHub Pages serves `en.html` for the request `/en` with a
+  // 200 and no trailing-slash redirect, so the served URL matches the canonical
+  // and sitemap entries exactly (which use no trailing slash).
   for (const { route, html } of results) {
-    const outPath = route === "/" ? join(DIST, "index.html") : join(DIST, route, "index.html");
+    const outPath = route === "/" ? join(DIST, "index.html") : join(DIST, `${route}.html`);
     await mkdir(dirname(outPath), { recursive: true });
     await writeFile(outPath, html, "utf8");
   }
