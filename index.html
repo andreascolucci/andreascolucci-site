@@ -3,47 +3,71 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Andreas Colucci — Event Operations for High-Pressure Environments</title>
-    <meta name="description" content="Event operations, real-time control, and systems management for large-scale events. Trusted in complex, high-pressure environments.">
-    <meta name="author" content="Andreas Colucci" />
-    <meta name="keywords" content="event operations, large-scale events, cashless systems, access control, real-time operations, event technology, RFID systems">
-    <link rel="canonical" href="https://andreascolucci.com/" />
 
-    <!-- Open Graph -->
+    <!-- Preconnect to the font origins (the stylesheet @imports Google Fonts) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Fallback title/meta. The per-page, per-language title, description, canonical,
+         Open Graph and hreflang are injected by react-helmet (src/hooks/useSEO.tsx)
+         and frozen into each page by the build-time prerender (scripts/prerender.mjs). -->
+    <title>Andreas Colucci — Event Operations for High-Pressure Environments</title>
+    <meta name="author" content="Andreas Colucci" />
+
+    <!-- Invariant Open Graph (og:title / og:url / og:description set per page by react-helmet) -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Andreas Colucci" />
-    <meta property="og:url" content="https://andreascolucci.com/" />
-    <meta property="og:title" content="Andreas Colucci — Event Operations for High-Pressure Environments">
-    <meta property="og:description" content="Real-time operations, systems, and execution for large-scale events.">
-    <meta property="og:image" content="https://andreascolucci.com/og-image.jpg">
+    <meta property="og:image" content="https://andreascolucci.com/og-image.jpg" />
     <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+    <meta property="og:image:height" content="669" />
 
-    <!-- Twitter -->
+    <!-- Twitter (title / description set per page by react-helmet) -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Andreas Colucci — Event Operations for High-Pressure Environments">
-    <meta name="twitter:description" content="Real-time operations, systems, and execution for large-scale events.">
-    <meta name="twitter:image" content="https://andreascolucci.com/og-image.jpg">
+    <meta name="twitter:image" content="https://andreascolucci.com/og-image.jpg" />
 
-    <!-- Hreflang defaults -->
-    <link rel="alternate" hreflang="en" href="https://andreascolucci.com/en" />
-    <link rel="alternate" hreflang="it" href="https://andreascolucci.com/it" />
-    <link rel="alternate" hreflang="es" href="https://andreascolucci.com/es" />
-    <link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en" />
-
-    <!-- JSON-LD Structured Data -->
+    <!-- JSON-LD: Person + WebSite + ProfessionalService entity graph -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "Andreas Colucci",
-      "description": "Event operations, real-time control, and systems management for large-scale events. Trusted in complex, high-pressure environments.",
-      "url": "https://andreascolucci.com",
-      "email": "hello@andreascolucci.com",
-      "sameAs": ["https://www.linkedin.com/in/andreascolucci/"],
-      "knowsAbout": ["Event Operations", "Cashless Systems", "Access Control", "RFID Technology", "Real-time Operations", "Large-scale Events"],
-      "areaServed": "Worldwide"
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://andreascolucci.com/#person",
+          "name": "Andreas Colucci",
+          "url": "https://andreascolucci.com/",
+          "image": "https://andreascolucci.com/og-image.jpg",
+          "email": "hello@andreascolucci.com",
+          "jobTitle": "Event Operations Consultant",
+          "description": "Senior event operations for large-scale, high-pressure environments. 300+ events across 20+ countries.",
+          "knowsAbout": ["Event Operations", "Cashless Systems", "Access Control", "RFID Technology", "Real-time Operations", "Large-scale Events", "Ticketing Systems", "Crowd Management"],
+          "knowsLanguage": ["en", "it", "es"],
+          "alumniOf": { "@type": "CollegeOrUniversity", "name": "IE University", "address": { "@type": "PostalAddress", "addressLocality": "Madrid", "addressCountry": "ES" } },
+          "sameAs": ["https://www.linkedin.com/in/andreascolucci/"]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://andreascolucci.com/#website",
+          "url": "https://andreascolucci.com/",
+          "name": "Andreas Colucci",
+          "inLanguage": "en",
+          "publisher": { "@id": "https://andreascolucci.com/#person" }
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://andreascolucci.com/#service",
+          "name": "Andreas Colucci — Event Operations Consulting",
+          "url": "https://andreascolucci.com/",
+          "image": "https://andreascolucci.com/og-image.jpg",
+          "email": "hello@andreascolucci.com",
+          "description": "Event operations, real-time control, and systems management for large-scale events. Trusted in complex, high-pressure environments.",
+          "serviceType": "Event Operations Consulting",
+          "knowsAbout": ["Event Operations", "Cashless Systems", "Access Control", "RFID Technology", "Real-time Operations", "Large-scale Events"],
+          "areaServed": { "@type": "Place", "name": "Worldwide" },
+          "provider": { "@id": "https://andreascolucci.com/#person" }
+        }
+      ]
     }
     </script>
   </head>

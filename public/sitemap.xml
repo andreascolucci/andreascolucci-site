@@ -5,7 +5,7 @@
   <!-- Home -->
   <url>
     <loc>https://andreascolucci.com/en</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en"/>
@@ -15,7 +15,7 @@
   </url>
   <url>
     <loc>https://andreascolucci.com/it</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en"/>
@@ -25,7 +25,7 @@
   </url>
   <url>
     <loc>https://andreascolucci.com/es</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en"/>
@@ -37,7 +37,7 @@
   <!-- Work -->
   <url>
     <loc>https://andreascolucci.com/en/work</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work"/>
@@ -47,7 +47,7 @@
   </url>
   <url>
     <loc>https://andreascolucci.com/it/work</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work"/>
@@ -57,7 +57,7 @@
   </url>
   <url>
     <loc>https://andreascolucci.com/es/work</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work"/>
@@ -69,7 +69,7 @@
   <!-- About -->
   <url>
     <loc>https://andreascolucci.com/en/about</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/about"/>
@@ -79,7 +79,7 @@
   </url>
   <url>
     <loc>https://andreascolucci.com/it/about</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/about"/>
@@ -89,7 +89,7 @@
   </url>
   <url>
     <loc>https://andreascolucci.com/es/about</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/about"/>
@@ -101,7 +101,7 @@
   <!-- Contact -->
   <url>
     <loc>https://andreascolucci.com/en/contact</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/contact"/>
@@ -111,7 +111,7 @@
   </url>
   <url>
     <loc>https://andreascolucci.com/it/contact</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/contact"/>
@@ -121,7 +121,7 @@
   </url>
   <url>
     <loc>https://andreascolucci.com/es/contact</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/contact"/>

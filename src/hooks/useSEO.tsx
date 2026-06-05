@@ -85,6 +85,31 @@ export const useSEO = () => {
   const basePath = location.pathname.replace(/^\/(en|it|es)/, "");
   const canonicalUrl = `${DOMAIN}${location.pathname}`;
 
+  const homeLabel = { en: "Home", it: "Home", es: "Inicio" }[language];
+  const crumbs = [{ name: homeLabel, url: `${DOMAIN}/${language}` }];
+  if (pageKey !== "home") crumbs.push({ name: title.split(" — ")[0], url: canonicalUrl });
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${canonicalUrl}#webpage`,
+    url: canonicalUrl,
+    name: title,
+    description,
+    inLanguage: language,
+    isPartOf: { "@id": `${DOMAIN}/#website` },
+    about: { "@id": `${DOMAIN}/#person` },
+    breadcrumb: {
+      "@type": "BreadcrumbList",
+      itemListElement: crumbs.map((c, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: c.name,
+        item: c.url,
+      })),
+    },
+  };
+
   return (
     <Helmet>
       <title>{title}</title>
@@ -100,6 +125,7 @@ export const useSEO = () => {
       <link rel="alternate" hreflang="it" href={`${DOMAIN}/it${basePath}`} />
       <link rel="alternate" hreflang="es" href={`${DOMAIN}/es${basePath}`} />
       <link rel="alternate" hreflang="x-default" href={`${DOMAIN}/en${basePath}`} />
+      <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
     </Helmet>
   );
 };
