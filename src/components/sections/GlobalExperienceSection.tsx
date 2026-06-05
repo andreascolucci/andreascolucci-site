@@ -1,10 +1,33 @@
+import { lazy, Suspense, useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import WorldMap from "@/components/WorldMap";
 import { useTranslation } from "@/i18n/useTranslation";
+
+// Lazy-load the interactive map: its react-simple-maps bundle and the ~756KB
+// world-atlas topojson are pulled in only when the section nears the viewport,
+// keeping them off the home page's initial load path.
+const WorldMap = lazy(() => import("@/components/WorldMap"));
 
 const GlobalExperienceSection = () => {
   const { t, translations } = useTranslation();
   const g = translations.globalExperience;
+  const mapRef = useRef<HTMLDivElement>(null);
+  const [showMap, setShowMap] = useState(false);
+
+  useEffect(() => {
+    const el = mapRef.current;
+    if (!el) return;
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) {
+          setShowMap(true);
+          io.disconnect();
+        }
+      },
+      { rootMargin: "300px" }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
 
   return (
     <section className="py-28 md:py-36 px-4 md:px-6 border-t border-border">
@@ -23,7 +46,13 @@ const GlobalExperienceSection = () => {
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed">{t(g.description)}</p>
         </motion.div>
 
-        <WorldMap />
+        <div ref={mapRef} className="min-h-[300px]">
+          {showMap && (
+            <Suspense fallback={null}>
+              <WorldMap />
+            </Suspense>
+          )}
+        </div>
       </div>
     </section>
   );

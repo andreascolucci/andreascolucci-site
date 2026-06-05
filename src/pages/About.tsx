@@ -13,6 +13,7 @@ const About = () => {
       {seo}
       <div className="container mx-auto">
         <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="mb-20">
+          <span className="label-text block mb-4">{t(a.kicker)}</span>
           <h1 className="heading-display text-[clamp(2.5rem,8vw,7rem)] leading-[0.95] mb-8">{t(a.title)}</h1>
         </motion.div>
 

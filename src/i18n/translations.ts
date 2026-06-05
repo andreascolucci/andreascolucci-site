@@ -11,7 +11,7 @@ export const translations = {
 
   // Hero
   hero: {
-    name: { en: "Andreas Colucci", it: "Andreas Colucci", es: "Andreas Colucci" },
+    name: { en: "Andreas Colucci · Event Operations Consultant", it: "Andreas Colucci · Consulente Operativo Eventi", es: "Andreas Colucci · Consultor de Operaciones de Eventos" },
     headline1: { en: "When operations break,", it: "Quando le operazioni saltano,", es: "Cuando las operaciones fallan," },
     headline2: { en: "I take control.", it: "prendo il controllo.", es: "tomo el control." },
     subtitle: {
@@ -600,6 +600,7 @@ export const translations = {
   // About Page
   aboutPage: {
     title: { en: "About", it: "Chi sono", es: "Sobre mí" },
+    kicker: { en: "Event Operations Consultant", it: "Consulente Operativo Eventi", es: "Consultor de Operaciones de Eventos" },
     intro: {
       en: "Years of work in high-pressure, large-scale event environments — from festivals to stadiums, from 8,000 to 160,000 people.",
       it: "Anni di lavoro in ambienti ad alta pressione ed eventi su larga scala — dai festival agli stadi, da 8.000 a 160.000 persone.",
@@ -661,6 +662,7 @@ export const translations = {
   // Work Page
   workPage: {
     title: { en: "Selected Work", it: "Lavori selezionati", es: "Trabajos seleccionados" },
+    kicker: { en: "Event Operations Case Studies", it: "Case Study di Event Operations", es: "Casos de Event Operations" },
     subtitle: {
       en: "Large-scale events where operational control was critical. No fake metrics — just reliability, execution, and results.",
       it: "Eventi su larga scala dove il controllo operativo era critico. Nessuna metrica inventata — solo affidabilità, esecuzione e risultati.",
@@ -671,6 +673,7 @@ export const translations = {
   // Contact Page
   contactPage: {
     title: { en: "Contact", it: "Contatto", es: "Contacto" },
+    kicker: { en: "Event Operations Consulting", it: "Consulenza Operativa Eventi", es: "Consultoría de Operaciones de Eventos" },
     subtitle: {
       en: "For high-complexity events and critical operational environments. Let's discuss your project.",
       it: "Per eventi ad alta complessità e ambienti operativi critici. Parliamo del tuo progetto.",
