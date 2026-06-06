@@ -40,6 +40,11 @@ jobs:
         run: |
           npm run build
           node scripts/prerender.mjs
+          # Safety net: fail the deploy if prerendered HTML is missing key content/JSON-LD
+          grep -q "Andreas Colucci" dist/en.html
+          grep -q "Kappa Futur" dist/en/work.html
+          grep -q "FAQPage" dist/en/faq.html
+          grep -q "application/ld+json" dist/it/about.html
           cp dist/index.html dist/404.html
 
       - uses: actions/upload-pages-artifact@v3

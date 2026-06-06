@@ -15,6 +15,7 @@ const Footer = () => {
     { to: `/${currentLang}/work`, label: t(translations.nav.work) },
     { to: `/${currentLang}/about`, label: t(translations.nav.about) },
     { to: `/${currentLang}/contact`, label: t(translations.nav.contact) },
+    { to: `/${currentLang}/faq`, label: t(translations.nav.faq) },
   ];
 
   return (

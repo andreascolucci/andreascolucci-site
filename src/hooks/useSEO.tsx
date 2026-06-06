@@ -65,6 +65,18 @@ const pageMeta: Record<string, PageMeta> = {
       es: "¿Trabajas en un evento complejo? Escríbeme para hablar de consultoría operativa, gestión onsite y supervisión de sistemas críticos.",
     },
   },
+  faq: {
+    title: {
+      en: "FAQ — Andreas Colucci",
+      it: "FAQ — Andreas Colucci",
+      es: "FAQ — Andreas Colucci",
+    },
+    description: {
+      en: "Frequently asked questions about Andreas Colucci, event operations consultant: who he is, what he does, which events he has worked on, his background, and how to get in touch.",
+      it: "Domande frequenti su Andreas Colucci, consulente operativo per eventi: chi è, cosa fa, a quali eventi ha lavorato, il suo percorso e come contattarlo.",
+      es: "Preguntas frecuentes sobre Andreas Colucci, consultor de operaciones de eventos: quién es, qué hace, en qué eventos ha trabajado, su trayectoria y cómo contactarlo.",
+    },
+  },
 };
 
 const getPageKey = (pathname: string): string => {
@@ -97,6 +109,7 @@ export const useSEO = () => {
     name: title,
     description,
     inLanguage: language,
+    dateModified: "2026-06-06",
     isPartOf: { "@id": `${DOMAIN}/#website` },
     about: { "@id": `${DOMAIN}/#person` },
     breadcrumb: {

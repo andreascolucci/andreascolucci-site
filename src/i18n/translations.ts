@@ -7,6 +7,7 @@ export const translations = {
     work: { en: "Work", it: "Lavori", es: "Trabajos" },
     about: { en: "About", it: "Chi sono", es: "Sobre mí" },
     contact: { en: "Contact", it: "Contatto", es: "Contacto" },
+    faq: { en: "FAQ", it: "FAQ", es: "FAQ" },
   },
 
   // Hero
@@ -63,7 +64,7 @@ export const translations = {
         },
       },
       {
-        value: "100+",
+        value: "300+",
         label: {
           en: "large-scale events delivered",
           it: "eventi su larga scala completati",
@@ -690,6 +691,83 @@ export const translations = {
       it: "Eventi ad alta complessità / ambienti critici",
       es: "Eventos de alta complejidad / entornos críticos",
     },
+  },
+
+  // FAQ Page
+  faqPage: {
+    title: { en: "FAQ", it: "FAQ", es: "FAQ" },
+    kicker: { en: "Event Operations Consultant", it: "Consulente Operativo Eventi", es: "Consultor de Operaciones de Eventos" },
+    subtitle: {
+      en: "Answers about Andreas Colucci and his work in event operations.",
+      it: "Risposte su Andreas Colucci e il suo lavoro nelle operazioni per eventi.",
+      es: "Respuestas sobre Andreas Colucci y su trabajo en operaciones de eventos.",
+    },
+    items: [
+      {
+        q: { en: "Who is Andreas Colucci?", it: "Chi è Andreas Colucci?", es: "¿Quién es Andreas Colucci?" },
+        a: {
+          en: "Andreas Colucci is an event operations consultant specializing in large-scale, high-pressure events such as music festivals and stadium shows. Over more than 10 years he has worked on 300+ events across 20+ countries, leading on-site operations, cashless systems, and access control.",
+          it: "Andreas Colucci è un consulente operativo per eventi specializzato in grandi eventi ad alta complessità, come festival musicali e spettacoli negli stadi. In oltre 10 anni ha lavorato a più di 300 eventi in oltre 20 paesi, gestendo operazioni on-site, sistemi cashless e controllo accessi.",
+          es: "Andreas Colucci es un consultor de operaciones de eventos especializado en eventos de gran escala y alta presión, como festivales de música y espectáculos en estadios. En más de 10 años ha trabajado en más de 300 eventos en más de 20 países, dirigiendo operaciones in situ, sistemas cashless y control de accesos.",
+        },
+      },
+      {
+        q: { en: "What does an event operations consultant do?", it: "Cosa fa un consulente operativo per eventi?", es: "¿Qué hace un consultor de operaciones de eventos?" },
+        a: {
+          en: "An event operations consultant plans and runs the operational backbone of an event: cashless payments, access control and ticketing, staff coordination, and real-time problem solving on site. Andreas Colucci focuses on the most complex, high-pressure environments where execution cannot fail.",
+          it: "Un consulente operativo per eventi pianifica e gestisce la struttura operativa di un evento: pagamenti cashless, controllo accessi e ticketing, coordinamento dello staff e problem solving in tempo reale sul campo. Andreas Colucci si concentra sugli ambienti più complessi e ad alta pressione, dove l'esecuzione non può fallire.",
+          es: "Un consultor de operaciones de eventos planifica y gestiona la estructura operativa de un evento: pagos cashless, control de accesos y ticketing, coordinación del personal y resolución de problemas en tiempo real sobre el terreno. Andreas Colucci se centra en los entornos más complejos y de alta presión, donde la ejecución no puede fallar.",
+        },
+      },
+      {
+        q: { en: "What events has Andreas Colucci worked on?", it: "A quali eventi ha lavorato Andreas Colucci?", es: "¿En qué eventos ha trabajado Andreas Colucci?" },
+        a: {
+          en: "Andreas Colucci has worked on major international events including Sónar, MotoGP, Campovolo, Kappa FuturFestival, Monegros Desert Festival, elrow, and Stadio Olimpico — festivals and stadium events with audiences of over 110,000 attendees.",
+          it: "Andreas Colucci ha lavorato a grandi eventi internazionali tra cui Sónar, MotoGP, Campovolo, Kappa FuturFestival, Monegros Desert Festival, elrow e Stadio Olimpico — festival ed eventi negli stadi con pubblici di oltre 110.000 persone.",
+          es: "Andreas Colucci ha trabajado en grandes eventos internacionales como Sónar, MotoGP, Campovolo, Kappa FuturFestival, Monegros Desert Festival, elrow y Stadio Olimpico — festivales y eventos en estadios con públicos de más de 110.000 personas.",
+        },
+      },
+      {
+        q: { en: "What does Andreas Colucci specialize in?", it: "In cosa è specializzato Andreas Colucci?", es: "¿En qué está especializado Andreas Colucci?" },
+        a: {
+          en: "He specializes in event operations for large-scale environments: cashless payment systems, access control and RFID technology, ticketing, crowd flow, and real-time operations management.",
+          it: "È specializzato in operazioni per eventi su larga scala: sistemi di pagamento cashless, controllo accessi e tecnologia RFID, ticketing, gestione dei flussi di pubblico e operazioni in tempo reale.",
+          es: "Está especializado en operaciones para eventos a gran escala: sistemas de pago cashless, control de accesos y tecnología RFID, ticketing, gestión del flujo de público y operaciones en tiempo real.",
+        },
+      },
+      {
+        q: { en: "What is Andreas Colucci's background?", it: "Qual è il percorso di Andreas Colucci?", es: "¿Cuál es la trayectoria de Andreas Colucci?" },
+        a: {
+          en: "Andreas Colucci holds a BBA from IE University in Madrid and has more than 10 years of experience in event operations across festivals and stadiums in 20+ countries.",
+          it: "Andreas Colucci ha conseguito un BBA alla IE University di Madrid e ha oltre 10 anni di esperienza nelle operazioni per eventi, tra festival e stadi, in oltre 20 paesi.",
+          es: "Andreas Colucci tiene un BBA por la IE University de Madrid y cuenta con más de 10 años de experiencia en operaciones de eventos, en festivales y estadios, en más de 20 países.",
+        },
+      },
+      {
+        q: { en: "What languages does Andreas Colucci work in?", it: "In che lingue lavora Andreas Colucci?", es: "¿En qué idiomas trabaja Andreas Colucci?" },
+        a: {
+          en: "Andreas Colucci works internationally and operates in English, Italian, and Spanish.",
+          it: "Andreas Colucci lavora a livello internazionale e opera in inglese, italiano e spagnolo.",
+          es: "Andreas Colucci trabaja a nivel internacional y opera en inglés, italiano y español.",
+        },
+      },
+      {
+        q: { en: "How can I contact Andreas Colucci?", it: "Come posso contattare Andreas Colucci?", es: "¿Cómo puedo contactar con Andreas Colucci?" },
+        a: {
+          en: "You can reach Andreas Colucci by email at hello@andreascolucci.com, via LinkedIn, or through the contact page on this site.",
+          it: "Puoi contattare Andreas Colucci via email a hello@andreascolucci.com, su LinkedIn o tramite la pagina contatti di questo sito.",
+          es: "Puedes contactar con Andreas Colucci por email en hello@andreascolucci.com, en LinkedIn o a través de la página de contacto de este sitio.",
+        },
+      },
+      {
+        q: { en: "Is Andreas Colucci available for new projects?", it: "Andreas Colucci è disponibile per nuovi progetti?", es: "¿Está Andreas Colucci disponible para nuevos proyectos?" },
+        a: {
+          en: "Andreas Colucci is available for selected projects and open to new conversations about complex events that need operational expertise.",
+          it: "Andreas Colucci è disponibile per progetti selezionati ed è aperto a nuove conversazioni su eventi complessi che richiedono competenza operativa.",
+          es: "Andreas Colucci está disponible para proyectos seleccionados y abierto a nuevas conversaciones sobre eventos complejos que requieren experiencia operativa.",
+        },
+      },
+    ],
   },
 
   // Case Study Card labels

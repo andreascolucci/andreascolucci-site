@@ -27,7 +27,7 @@ const ORIGIN = `http://localhost:${PORT}`;
 
 // Must stay in sync with the routes in src/App.tsx and public/sitemap.xml.
 const LANGS = ["en", "it", "es"];
-const PAGES = ["", "/work", "/about", "/contact"];
+const PAGES = ["", "/work", "/about", "/contact", "/faq"];
 const ROUTES = LANGS.flatMap((l) => PAGES.map((p) => `/${l}${p}`));
 
 const MIME = {

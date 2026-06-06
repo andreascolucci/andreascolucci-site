@@ -13,4 +13,17 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    rollupOptions: {
+      output: {
+        // Split the stable framework code into its own long-lived cache chunk,
+        // and the heavy animation library separately, so app-code changes don't
+        // bust the whole vendor bundle on repeat visits.
+        manualChunks: {
+          "react-vendor": ["react", "react-dom", "react-router-dom"],
+          "framer-motion": ["framer-motion"],
+        },
+      },
+    },
+  },
 });

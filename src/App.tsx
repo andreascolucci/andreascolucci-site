@@ -15,6 +15,7 @@ const Index = lazy(() => import("./pages/Index"));
 const Work = lazy(() => import("./pages/Work"));
 const About = lazy(() => import("./pages/About"));
 const Contact = lazy(() => import("./pages/Contact"));
+const Faq = lazy(() => import("./pages/Faq"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const queryClient = new QueryClient();
@@ -57,6 +58,7 @@ const App = () => (
               <Route path="/:lang/work" element={<LanguageWrapper><Work /></LanguageWrapper>} />
               <Route path="/:lang/about" element={<LanguageWrapper><About /></LanguageWrapper>} />
               <Route path="/:lang/contact" element={<LanguageWrapper><Contact /></LanguageWrapper>} />
+              <Route path="/:lang/faq" element={<LanguageWrapper><Faq /></LanguageWrapper>} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>
