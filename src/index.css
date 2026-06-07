@@ -126,6 +126,7 @@
     --input: 0 0% 88%;
     --ring: 0 0% 8%;
     --radius: 0px;
+    --signal: 20 90% 48%;
     --sidebar-background: 0 0% 96%;
     --sidebar-foreground: 0 0% 8%;
     --sidebar-primary: 0 0% 8%;
@@ -191,4 +192,34 @@
     font-family: 'Inter', sans-serif;
     @apply text-xs uppercase tracking-[0.2em] text-muted-foreground font-medium;
   }
+
+  .mono {
+    font-family: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+    font-feature-settings: "tnum" 1, "zero" 1;
+  }
+
+  .precision-grid {
+    background-image:
+      linear-gradient(to right, hsl(var(--border)) 1px, transparent 1px),
+      linear-gradient(to bottom, hsl(var(--border)) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+}
+
+@keyframes signal-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.3; transform: scale(0.78); }
+}
+
+.signal-dot {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 9999px;
+  background-color: hsl(var(--signal));
+  animation: signal-pulse 2.4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .signal-dot { animation: none; }
 }

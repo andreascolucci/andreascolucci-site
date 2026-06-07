@@ -75,6 +75,12 @@ async function capture(page, route) {
       const s = getComputedStyle(el);
       if (parseFloat(s.opacity) < 1) el.style.opacity = "1";
       if (s.transform && s.transform !== "none") el.style.transform = "none";
+      if (s.clipPath && s.clipPath !== "none") el.style.clipPath = "none";
+    });
+    // Freeze count-up figures to their final value so the static HTML is correct
+    document.querySelectorAll("[data-final]").forEach((el) => {
+      const v = el.getAttribute("data-final");
+      if (v != null) el.textContent = v;
     });
   });
   return await page.content();

@@ -32,6 +32,16 @@ export const translations = {
       it: "Disponibile per progetti selezionati — aperto a nuove conversazioni.",
       es: "Disponible para proyectos seleccionados — abierto a nuevas conversaciones.",
     },
+    status: {
+      en: "Available — selected projects · 2026",
+      it: "Disponibile — progetti selezionati · 2026",
+      es: "Disponible — proyectos seleccionados · 2026",
+    },
+    stats: [
+      { value: 300, suffix: "+", label: { en: "events delivered", it: "eventi gestiti", es: "eventos gestionados" } },
+      { value: 110, suffix: "K", label: { en: "peak attendance", it: "picco di pubblico", es: "pico de público" } },
+      { value: 20, suffix: "+", label: { en: "countries", it: "paesi", es: "países" } },
+    ],
   },
 
   // Impact
