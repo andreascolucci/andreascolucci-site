@@ -44,7 +44,7 @@ const ImpactSection = () => {
       <div className="container mx-auto">
         <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} viewport={{ once: true }} className="mb-20 flex items-end justify-between gap-6">
           <div>
-            <span className="label-text block mb-4">// {t(imp.label)}</span>
+            <span className="label-text block mb-4">{t(imp.label)}</span>
             <h2 className="heading-display text-3xl md:text-5xl">{t(imp.title)}</h2>
           </div>
           <span className="mono hidden md:block text-[10px] tracking-[0.25em] text-muted-foreground">track record / verified</span>

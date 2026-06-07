@@ -86,7 +86,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           <Link
             to={`/${currentLang}`}
-            className="text-sm font-semibold uppercase tracking-[0.15em] text-foreground hover:text-muted-foreground transition-colors truncate max-w-[180px] lg:max-w-none"
+            className="mono text-xs md:text-[13px] font-medium uppercase tracking-[0.12em] text-foreground hover:text-muted-foreground transition-colors truncate max-w-[180px] lg:max-w-none"
             onClick={closeMenu}
           >
             <span className="hidden lg:inline">Andreas Colucci - Event Tech & Operations Consultant</span>
@@ -101,7 +101,7 @@ const Navigation = () => {
                   <Link
                     to={item.href}
                     className={cn(
-                      "text-xs font-medium uppercase tracking-[0.15em] transition-colors story-link",
+                      "mono text-xs uppercase tracking-[0.15em] transition-colors story-link",
                       isActive(item.href)
                         ? "text-foreground"
                         : "text-muted-foreground hover:text-foreground"
@@ -120,7 +120,7 @@ const Navigation = () => {
                   key={l.code}
                   onClick={() => switchLanguage(l.code)}
                   className={cn(
-                    "text-[10px] font-medium uppercase tracking-[0.2em] px-2 py-1 transition-colors",
+                    "mono text-[10px] uppercase tracking-[0.2em] px-2 py-1 transition-colors",
                     currentLang === l.code
                       ? "text-foreground"
                       : "text-muted-foreground hover:text-foreground"
@@ -140,7 +140,7 @@ const Navigation = () => {
                   key={l.code}
                   onClick={() => switchLanguage(l.code)}
                   className={cn(
-                    "text-[10px] font-medium uppercase tracking-[0.15em] px-2 py-2 min-w-[32px] min-h-[32px] flex items-center justify-center transition-colors",
+                    "mono text-[10px] uppercase tracking-[0.15em] px-2 py-2 min-w-[32px] min-h-[32px] flex items-center justify-center transition-colors",
                     currentLang === l.code
                       ? "text-foreground"
                       : "text-muted-foreground hover:text-foreground"

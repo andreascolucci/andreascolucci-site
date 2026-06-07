@@ -27,7 +27,8 @@ const ServicesSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16">
           {(s.items as ServiceItem[]).map((service, index) => (
-            <motion.div key={index} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: index * 0.1 }} viewport={{ once: true }} className="border-t border-border pt-8 flex flex-col">
+            <motion.div key={index} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: index * 0.1 }} viewport={{ once: true }} className="relative border-t border-border pt-8 flex flex-col">
+              <span className="mono absolute top-0 right-0 -translate-y-[150%] text-[10px] tracking-[0.25em] text-muted-foreground">{String(index + 1).padStart(2, "0")}</span>
               <h3 className="text-xl md:text-2xl font-medium text-foreground mb-4 tracking-tight">{t(service.title)}</h3>
               {"description" in service && (
                 <p className="text-base md:text-lg text-muted-foreground leading-relaxed mb-6">{t((service as ServiceItemWithDescription).description)}</p>

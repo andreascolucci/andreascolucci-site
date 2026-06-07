@@ -193,6 +193,10 @@
     @apply text-[11px] uppercase tracking-[0.2em] text-muted-foreground font-medium;
   }
 
+  .label-text::before {
+    content: "// ";
+  }
+
   .mono {
     font-family: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
     font-feature-settings: "tnum" 1, "zero" 1;

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import ContactForm from "@/components/ContactForm";
+import StatusLine from "@/components/StatusLine";
 import { useTranslation } from "@/i18n/useTranslation";
 import { useSEO } from "@/hooks/useSEO";
 
@@ -13,6 +14,9 @@ const Contact = () => {
     <main className="min-h-screen bg-background pt-32 pb-20 px-4 md:px-6">
       {seo}
       <div className="container mx-auto">
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }} className="mb-10">
+          <StatusLine />
+        </motion.div>
         <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="mb-20">
           <span className="label-text block mb-4">{t(c.kicker)}</span>
           <h1 className="heading-display text-[clamp(2.5rem,8vw,7rem)] leading-[0.95] mb-8">{t(c.title)}</h1>
