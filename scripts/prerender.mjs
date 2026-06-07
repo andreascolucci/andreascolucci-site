@@ -28,7 +28,19 @@ const ORIGIN = `http://localhost:${PORT}`;
 // Must stay in sync with the routes in src/App.tsx and public/sitemap.xml.
 const LANGS = ["en", "it", "es"];
 const PAGES = ["", "/work", "/about", "/contact", "/faq"];
-const ROUTES = LANGS.flatMap((l) => PAGES.map((p) => `/${l}${p}`));
+const CASE_SLUGS = [
+  "campovolo",
+  "kappa-futurfestival",
+  "monegros-desert-festival",
+  "sonar",
+  "elrow-town-madrid",
+  "motogp-catalunya",
+  "stadio-olimpico",
+];
+const ROUTES = LANGS.flatMap((l) => [
+  ...PAGES.map((p) => `/${l}${p}`),
+  ...CASE_SLUGS.map((s) => `/${l}/work/${s}`),
+]);
 
 const MIME = {
   ".html": "text/html", ".js": "text/javascript", ".css": "text/css",

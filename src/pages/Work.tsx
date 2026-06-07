@@ -1,11 +1,13 @@
 import { motion } from "framer-motion";
+import { useParams } from "react-router-dom";
 import CaseStudyCard from "@/components/CaseStudyCard";
 import { useTranslation } from "@/i18n/useTranslation";
 import { useSEO } from "@/hooks/useSEO";
-import { caseStudyImages, caseStudyImageFits } from "@/data/caseStudyImages";
+import { caseStudyImages, caseStudyImageFits, caseSlugs } from "@/data/caseStudyImages";
 
 const Work = () => {
   const seo = useSEO();
+  const { lang } = useParams<{ lang: string }>();
   const { t, language, translations } = useTranslation();
   const w = translations.workPage;
   const cs = translations.caseStudies;
@@ -34,6 +36,8 @@ const Work = () => {
               image={caseStudyImages[index]}
               index={index}
               imageFit={caseStudyImageFits[index]}
+              slug={caseSlugs[index]}
+              lang={lang || "en"}
             />
           ))}
         </div>

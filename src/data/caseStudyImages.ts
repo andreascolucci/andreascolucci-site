@@ -16,6 +16,17 @@ export const caseStudyImages = [
   caseOlimpico,
 ];
 
+// URL slug per case study, in the same order as the cases / images above.
+export const caseSlugs = [
+  "campovolo",
+  "kappa-futurfestival",
+  "monegros-desert-festival",
+  "sonar",
+  "elrow-town-madrid",
+  "motogp-catalunya",
+  "stadio-olimpico",
+];
+
 export const caseStudyImageFits: (("cover" | "contain") | undefined)[] = [
   undefined,
   undefined,

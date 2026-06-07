@@ -162,4 +162,216 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/faq"/>
   </url>
 
+  <!-- Case studies (per-event) -->
+  <url>
+    <loc>https://andreascolucci.com/en/work/campovolo</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work/campovolo"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://andreascolucci.com/it/work/campovolo"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andreascolucci.com/es/work/campovolo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/work/campovolo"/>
+  </url>
+  <url>
+    <loc>https://andreascolucci.com/en/work/kappa-futurfestival</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work/kappa-futurfestival"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://andreascolucci.com/it/work/kappa-futurfestival"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andreascolucci.com/es/work/kappa-futurfestival"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/work/kappa-futurfestival"/>
+  </url>
+  <url>
+    <loc>https://andreascolucci.com/en/work/monegros-desert-festival</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work/monegros-desert-festival"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://andreascolucci.com/it/work/monegros-desert-festival"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andreascolucci.com/es/work/monegros-desert-festival"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/work/monegros-desert-festival"/>
+  </url>
+  <url>
+    <loc>https://andreascolucci.com/en/work/sonar</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work/sonar"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://andreascolucci.com/it/work/sonar"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andreascolucci.com/es/work/sonar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/work/sonar"/>
+  </url>
+  <url>
+    <loc>https://andreascolucci.com/en/work/elrow-town-madrid</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work/elrow-town-madrid"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://andreascolucci.com/it/work/elrow-town-madrid"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andreascolucci.com/es/work/elrow-town-madrid"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/work/elrow-town-madrid"/>
+  </url>
+  <url>
+    <loc>https://andreascolucci.com/en/work/motogp-catalunya</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work/motogp-catalunya"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://andreascolucci.com/it/work/motogp-catalunya"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andreascolucci.com/es/work/motogp-catalunya"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/work/motogp-catalunya"/>
+  </url>
+  <url>
+    <loc>https://andreascolucci.com/en/work/stadio-olimpico</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work/stadio-olimpico"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://andreascolucci.com/it/work/stadio-olimpico"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andreascolucci.com/es/work/stadio-olimpico"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/work/stadio-olimpico"/>
+  </url>
+  <url>
+    <loc>https://andreascolucci.com/it/work/campovolo</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work/campovolo"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://andreascolucci.com/it/work/campovolo"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andreascolucci.com/es/work/campovolo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/work/campovolo"/>
+  </url>
+  <url>
+    <loc>https://andreascolucci.com/it/work/kappa-futurfestival</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work/kappa-futurfestival"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://andreascolucci.com/it/work/kappa-futurfestival"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andreascolucci.com/es/work/kappa-futurfestival"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/work/kappa-futurfestival"/>
+  </url>
+  <url>
+    <loc>https://andreascolucci.com/it/work/monegros-desert-festival</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work/monegros-desert-festival"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://andreascolucci.com/it/work/monegros-desert-festival"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andreascolucci.com/es/work/monegros-desert-festival"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/work/monegros-desert-festival"/>
+  </url>
+  <url>
+    <loc>https://andreascolucci.com/it/work/sonar</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work/sonar"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://andreascolucci.com/it/work/sonar"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andreascolucci.com/es/work/sonar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/work/sonar"/>
+  </url>
+  <url>
+    <loc>https://andreascolucci.com/it/work/elrow-town-madrid</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work/elrow-town-madrid"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://andreascolucci.com/it/work/elrow-town-madrid"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andreascolucci.com/es/work/elrow-town-madrid"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/work/elrow-town-madrid"/>
+  </url>
+  <url>
+    <loc>https://andreascolucci.com/it/work/motogp-catalunya</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work/motogp-catalunya"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://andreascolucci.com/it/work/motogp-catalunya"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andreascolucci.com/es/work/motogp-catalunya"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/work/motogp-catalunya"/>
+  </url>
+  <url>
+    <loc>https://andreascolucci.com/it/work/stadio-olimpico</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work/stadio-olimpico"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://andreascolucci.com/it/work/stadio-olimpico"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andreascolucci.com/es/work/stadio-olimpico"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/work/stadio-olimpico"/>
+  </url>
+  <url>
+    <loc>https://andreascolucci.com/es/work/campovolo</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work/campovolo"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://andreascolucci.com/it/work/campovolo"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andreascolucci.com/es/work/campovolo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/work/campovolo"/>
+  </url>
+  <url>
+    <loc>https://andreascolucci.com/es/work/kappa-futurfestival</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work/kappa-futurfestival"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://andreascolucci.com/it/work/kappa-futurfestival"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andreascolucci.com/es/work/kappa-futurfestival"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/work/kappa-futurfestival"/>
+  </url>
+  <url>
+    <loc>https://andreascolucci.com/es/work/monegros-desert-festival</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work/monegros-desert-festival"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://andreascolucci.com/it/work/monegros-desert-festival"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andreascolucci.com/es/work/monegros-desert-festival"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/work/monegros-desert-festival"/>
+  </url>
+  <url>
+    <loc>https://andreascolucci.com/es/work/sonar</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work/sonar"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://andreascolucci.com/it/work/sonar"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andreascolucci.com/es/work/sonar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/work/sonar"/>
+  </url>
+  <url>
+    <loc>https://andreascolucci.com/es/work/elrow-town-madrid</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work/elrow-town-madrid"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://andreascolucci.com/it/work/elrow-town-madrid"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andreascolucci.com/es/work/elrow-town-madrid"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/work/elrow-town-madrid"/>
+  </url>
+  <url>
+    <loc>https://andreascolucci.com/es/work/motogp-catalunya</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work/motogp-catalunya"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://andreascolucci.com/it/work/motogp-catalunya"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andreascolucci.com/es/work/motogp-catalunya"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/work/motogp-catalunya"/>
+  </url>
+  <url>
+    <loc>https://andreascolucci.com/es/work/stadio-olimpico</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andreascolucci.com/en/work/stadio-olimpico"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://andreascolucci.com/it/work/stadio-olimpico"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andreascolucci.com/es/work/stadio-olimpico"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andreascolucci.com/en/work/stadio-olimpico"/>
+  </url>
+
 </urlset>

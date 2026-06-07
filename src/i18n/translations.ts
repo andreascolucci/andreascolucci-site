@@ -212,6 +212,9 @@ export const translations = {
     cta_button: { en: "Start a conversation", it: "Inizia una conversazione", es: "Iniciar una conversación" },
     role_label: { en: "Role", it: "Ruolo", es: "Rol" },
     outcome_label: { en: "Outcome", it: "Risultato", es: "Resultado" },
+    read_case: { en: "Read the full case", it: "Leggi il caso completo", es: "Leer el caso completo" },
+    back_to_work: { en: "All case studies", it: "Tutti i case study", es: "Todos los casos" },
+    context_label: { en: "Context", it: "Contesto", es: "Contexto" },
     cases: [
       {
         number: "01",

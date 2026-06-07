@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import { X } from "lucide-react";
+import { Link } from "react-router-dom";
+import { X, ArrowRight } from "lucide-react";
 import { useTranslation } from "@/i18n/useTranslation";
 
 interface CaseStudyCardProps {
@@ -14,9 +15,11 @@ interface CaseStudyCardProps {
   image: string;
   index: number;
   imageFit?: "cover" | "contain";
+  slug: string;
+  lang: string;
 }
 
-const CaseStudyCard = ({ number, title, highlight, context, details, role, outcome, image, index, imageFit = "cover" }: CaseStudyCardProps) => {
+const CaseStudyCard = ({ number, title, highlight, context, details, role, outcome, image, index, imageFit = "cover", slug, lang }: CaseStudyCardProps) => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const { t, translations } = useTranslation();
 
@@ -69,7 +72,7 @@ const CaseStudyCard = ({ number, title, highlight, context, details, role, outco
         <div className={`grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 ${isReversed ? 'md:direction-rtl' : ''}`}>
           <div className={`${isReversed ? 'md:col-start-7 md:col-span-6' : 'md:col-span-5'}`} style={{ direction: 'ltr' }}>
             <h3 className="heading-display text-2xl md:text-4xl mb-4 tracking-tight">
-              {title}
+              <Link to={`/${lang}/work/${slug}`} className="hover:text-muted-foreground transition-colors">{title}</Link>
             </h3>
             <p className="heading-display text-xl md:text-2xl text-muted-foreground mb-6">
               {highlight}
@@ -96,6 +99,10 @@ const CaseStudyCard = ({ number, title, highlight, context, details, role, outco
               <span className="label-text block mb-2">{t(cs.outcome_label)}</span>
                 <p className="text-base md:text-lg text-foreground leading-relaxed">{outcome}</p>
             </div>
+            <Link to={`/${lang}/work/${slug}`} className="mono inline-flex items-center gap-2 text-[11px] uppercase tracking-[0.2em] text-foreground hover:text-muted-foreground transition-colors group">
+              {t(cs.read_case)}
+              <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
+            </Link>
           </div>
         </div>
       </motion.article>
