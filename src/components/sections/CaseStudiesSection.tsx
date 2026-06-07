@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import CaseStudyCard from "@/components/CaseStudyCard";
 import { useTranslation } from "@/i18n/useTranslation";
-import { caseStudyImages, caseStudyImageFits } from "@/data/caseStudyImages";
+import { caseStudyImages, caseStudyImageFits, caseSlugs } from "@/data/caseStudyImages";
 
 const CaseStudiesSection = () => {
   const { t, language, translations } = useTranslation();
@@ -32,6 +32,8 @@ const CaseStudiesSection = () => {
               image={caseStudyImages[index]}
               index={index}
               imageFit={caseStudyImageFits[index]}
+              slug={caseSlugs[index]}
+              lang={lang || "en"}
             />
           ))}
         </div>
