@@ -612,6 +612,16 @@ export const translations = {
   aboutPage: {
     title: { en: "About", it: "Chi sono", es: "Sobre mí" },
     kicker: { en: "Event Operations Consultant", it: "Consulente Operativo Eventi", es: "Consultor de Operaciones de Eventos" },
+    specs_label: { en: "Profile", it: "Profilo", es: "Perfil" },
+    specs: [
+      { label: { en: "Role", it: "Ruolo", es: "Rol" }, value: { en: "Event Operations Consultant", it: "Consulente operativo eventi", es: "Consultor de operaciones" } },
+      { label: { en: "Experience", it: "Esperienza", es: "Experiencia" }, value: { en: "10+ years", it: "10+ anni", es: "10+ años" } },
+      { label: { en: "Events", it: "Eventi", es: "Eventos" }, value: { en: "300+", it: "300+", es: "300+" } },
+      { label: { en: "Countries", it: "Paesi", es: "Países" }, value: { en: "20+", it: "20+", es: "20+" } },
+      { label: { en: "Peak / event", it: "Picco / evento", es: "Pico / evento" }, value: { en: "110,000", it: "110.000", es: "110.000" } },
+      { label: { en: "Education", it: "Formazione", es: "Formación" }, value: { en: "IE University, Madrid", it: "IE University, Madrid", es: "IE University, Madrid" } },
+      { label: { en: "Languages", it: "Lingue", es: "Idiomas" }, value: { en: "EN · IT · ES", it: "EN · IT · ES", es: "EN · IT · ES" } },
+    ],
     intro: {
       en: "Years of work in high-pressure, large-scale event environments — from festivals to stadiums, from 8,000 to 160,000 people.",
       it: "Anni di lavoro in ambienti ad alta pressione ed eventi su larga scala — dai festival agli stadi, da 8.000 a 160.000 persone.",

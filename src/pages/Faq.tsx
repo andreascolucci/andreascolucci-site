@@ -41,8 +41,11 @@ const Faq = () => {
               viewport={{ once: true }}
               className="border-b border-border py-8"
             >
-              <h2 className="heading-display text-xl md:text-2xl mb-3">{t(item.q)}</h2>
-              <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl">{t(item.a)}</p>
+              <div className="flex items-baseline gap-4 mb-3">
+                <span className="mono text-xs text-signal shrink-0 pt-1">{String(i + 1).padStart(2, "0")}</span>
+                <h2 className="heading-display text-xl md:text-2xl">{t(item.q)}</h2>
+              </div>
+              <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl md:pl-9">{t(item.a)}</p>
             </motion.div>
           ))}
         </div>

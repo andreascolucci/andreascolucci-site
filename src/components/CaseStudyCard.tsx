@@ -59,8 +59,8 @@ const CaseStudyCard = ({ number, title, highlight, context, details, role, outco
           <div className="absolute inset-0 bg-foreground/10 group-hover:bg-foreground/5 transition-colors duration-500" />
           <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-foreground/30 to-transparent" />
           <div className="absolute bottom-6 left-6 md:bottom-8 md:left-8">
-            <span className="text-background text-xs font-medium uppercase tracking-[0.2em] opacity-80">
-              {number}
+            <span className="mono text-background text-[10px] md:text-xs uppercase tracking-[0.2em] opacity-90">
+              <span className="text-signal">//</span> CASE {number}
             </span>
           </div>
         </motion.div>
