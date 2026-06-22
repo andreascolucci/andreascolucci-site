@@ -56,9 +56,37 @@ const Footer = () => {
             </motion.div>
           </div>
 
-          <div className="mt-20 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-xs text-muted-foreground tracking-wider">© {currentYear} Andreas Colucci. {t(f.copyright)}</p>
-            <p className="text-xs text-muted-foreground tracking-wider">{t(f.tagline)}</p>
+          <div className="mt-20 pt-8 border-t border-border flex flex-col gap-8">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+              <p className="text-xs text-muted-foreground tracking-wider">© {currentYear} Andreas Colucci. {t(f.copyright)}</p>
+              <p className="text-xs text-muted-foreground tracking-wider">{t(f.tagline)}</p>
+            </div>
+            <a
+              href="https://logichedinamiche.it/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Sito realizzato da Logiche Dinamiche"
+              className="group inline-flex items-center justify-center gap-2.5 self-center"
+            >
+              <span className="mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground">Powered by</span>
+              <span
+                className="inline-flex items-center justify-center w-6 h-6 rounded-md bg-foreground transition-transform duration-500 group-hover:-rotate-6 group-hover:scale-105"
+                style={{ color: "#C6F24E" }}
+                aria-hidden="true"
+              >
+                <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-3.5 h-3.5">
+                  <g transform="skewX(-7)" stroke="currentColor" strokeWidth="4.4" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M12 8 V32 H22" />
+                    <path d="M25 8 V32" />
+                    <path d="M25 8 H28 A12 12 0 0 1 28 32 H25" />
+                  </g>
+                  <circle cx="11" cy="8.2" r="2.6" fill="currentColor" />
+                </svg>
+              </span>
+              <span className="text-sm font-medium text-foreground">
+                Logiche <span className="font-semibold">Dinamiche</span>
+              </span>
+            </a>
           </div>
         </div>
       </div>
